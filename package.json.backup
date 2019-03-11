@@ -1,0 +1,36 @@
+{
+  "name": "compromise-coreference",
+  "version": "0.0.1",
+  "description": "co-reference resolution using nlp-compromise",
+  "main": "./builds/compromise-coreference.js",
+  "scripts": {
+    "test": "tape \"./test/unit/**/*.test.js\" | tap-dancer",
+    "watch": "amble ./scratch.js",
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlp-compromise/compromise-coreference.git"
+  },
+  "author": "Spencer Kelly (spencermountain)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlp-compromise/compromise-coreference/issues"
+  },
+  "homepage": "https://github.com/nlp-compromise/compromise-coreference#readme",
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/preset-env": "7.3.4",
+    "amble": "0.0.7",
+    "babelify": "10.0.0",
+    "browserify": "16.2.3",
+    "compromise": "^11.13.1",
+    "compromise-plugin": "0.0.8",
+    "derequire": "2.0.6",
+    "nyc": "13.3.0",
+    "shelljs": "0.8.3",
+    "tap-dancer": "0.1.2",
+    "tape": "4.10.1"
+  },
+  "dependencies": {}
+}
