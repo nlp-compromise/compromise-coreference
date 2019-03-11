@@ -1,8 +1,10 @@
 <div align="center">
 WIP co-reference resolution using nlp-compromise
 <br/>
-by spencermountain and [David N. Hughes-Robinson](https://github.com/oaguy1)
+by spencermountain and <a href="https://github.com/oaguy1">David N. Hughes-Robinson</a>
 </div>
+
+
 ```js
 const coreference = require('compromise-coreference')
 const nlp=require('compromise')
